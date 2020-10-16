@@ -18,10 +18,10 @@ module.exports = {
         {
           to: 'docs/',
           activeBasePath: 'docs',
-          label: 'Docs',
+          label: 'Documentos',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        //{to: 'blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/ManuelLoraRoman/ApuntesASIR',
           label: 'Apuntes de ASIR',

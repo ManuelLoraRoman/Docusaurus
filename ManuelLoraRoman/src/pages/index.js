@@ -8,26 +8,27 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Easy to Use',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    title: 'Sobre mí',
+    //imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Estudiante actual de <code>ASIR</code> en el Gonzalo Nazareno.
+	Autodidacta en términos de Programación y desarrollo de Videojuegos.
+	Curso de Marketing y Gestión y Control de aprovisionamiento.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    title: 'Contacto',
+    //imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Si desea contactar conmigo, puedes escribirme un correo a la siguiente
+	dirección de email: <code>manuelloraroman@gmail.com</code>
       </>
     ),
   },
-  {
+/*  {
     title: 'Powered by React',
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
@@ -36,7 +37,7 @@ const features = [
         be extended while reusing the same header and footer.
       </>
     ),
-  },
+  },*/
 ];
 
 function Feature({imageUrl, title, description}) {
@@ -72,7 +73,7 @@ function Home() {
                 styles.getStarted,
               )}
               to={useBaseUrl('docs/')}>
-              Get Started
+              Comienzo
             </Link>
           </div>
         </div>
